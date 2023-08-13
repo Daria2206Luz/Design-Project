@@ -1,0 +1,503 @@
+body {
+  font-family: 'Nunito Sans';
+  margin: 0;
+}
+
+body * {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  height: 83px;
+  max-width: 1256px;
+  margin: 0 auto;
+}
+
+
+.title {
+  font-family: 'Yeseva One';
+  text-transform: uppercase;
+}
+
+.button {
+  border-radius: 2px;
+  border: none;
+  background-color: #E3B873;
+  color: white;
+  font-style: italic;
+  text-transform: uppercase;
+  padding: 13px 33px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #e3b87381;
+}
+
+
+/* Styles Header start */
+
+.header {
+  background-color: black;
+}
+
+.header__logo_a {
+  color: #E3B873;
+  font-size: 11px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.header__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 47.09px;
+  list-style: none;
+}
+
+.header__link {
+  text-decoration: none;
+  font-size: 11px;
+  color: white;
+  text-transform: uppercase;
+}
+
+.header__link:hover {
+  color: #E3B873;
+}
+
+.header__nav {
+  margin-right: 67.36px;
+}
+
+.header__tell_a {
+  color: #E3B873;
+  text-align: right;
+  font-size: 11px;
+  text-decoration-line: underline;
+}
+
+/* Styles Header end */
+
+
+/* Styles Main start */
+
+/* Styles hero start */
+
+.main__hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/hero.jpg);
+  background-size: cover;
+  max-height: 100%;
+  height: 707px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.hero__container {
+  margin-top: 194px;
+  max-width: 520px;
+}
+
+.hero__title {
+  color: #FFF;
+  font-size: 40px;
+  font-family: Yeseva One;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 132.825%;
+  text-transform: uppercase;
+}
+
+.hero__title_span {
+  color: #E3B873;
+}
+
+.hero__text {
+  margin-top: 19px;
+  color: #FFF;
+  font-size: 22px;
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 163.68%;
+  margin-bottom: 41px;
+}
+
+.hero__button {
+  box-shadow: 0px 5px 15px 0px rgba(227, 184, 115, 0.30);
+  width: 207px;
+  height: 51px;
+  flex-shrink: 0;
+  margin-right: 20px;
+  font-size: 11px;
+  line-height: normal;
+}
+
+.hero__button2 {
+  border-radius: 2px;
+  border: 1px solid #FFF;
+  width: 207px;
+  height: 51px;
+  flex-shrink: 0;
+  background-color: transparent;
+  color: #FFF;
+  text-align: center;
+  font-size: 11px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.hero__button2:hover {
+  background-color: #ffffff49;
+}
+
+/* Styles hero end */
+
+/* Styles projects start */
+
+.projects {
+  background-color: #131313;
+  height: 1074px;
+}
+
+.projects__container {
+  margin-top: 107px;
+  min-height: 416px;
+  padding-bottom: 415.26px;
+}
+
+.projects__info {
+  display: flex;
+}
+
+.projects__info-text {
+  margin-right: 50px;
+  max-width: 442px;
+}
+
+.projects__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60.5px;
+  list-style: none;
+  justify-content: flex-end;
+  margin-right: 56px;
+  margin-bottom: 53.04px;
+}
+
+.projects__link {
+  text-decoration: none;
+  font-size: 14px;
+  color:rgba(255, 255, 255, 0.3);
+  text-transform: uppercase;
+  font-family: 'Yeseva One';
+}
+
+.projects__link:hover {
+  color: rgba(227, 184, 115, 1);
+  text-decoration: solid underline rgba(227, 184, 115, 1);
+}
+
+.projects__title {
+  font-size: 27px;
+  color: rgba(227, 184, 115, 1);
+  margin-bottom: 34px;
+  font-weight: 400;
+  line-height: 138.6%;
+  letter-spacing: -1.89px;
+}
+
+.projects__text {
+  color: rgba(255, 255, 255, 1);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 190.96%;
+  margin-bottom: 42px;
+}
+
+.projects__short-inf {
+  color: #FFF ;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 1vw;
+  margin-bottom: 79.64px;
+}
+
+.short-inf_item__title {
+  color: #E3B873;
+  font-size: 18px;
+  margin-bottom: 9px;
+}
+
+.short-inf_item__text {
+  font-size: 13px;
+}
+
+/* Styles projects end */
+
+
+/* Styles application start */
+
+.application {
+  height: 707px;
+}
+
+.application__container {
+  margin-top: -323.74px;
+}
+
+.application__title {
+  color: #FFF;
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 12.79px;
+}
+
+.application__svg {
+  text-align: center;
+  margin-bottom: 31.21px;
+}
+
+.application__part-img {
+  position: relative;
+  margin-bottom: 62.5px;
+}
+
+.application__img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  filter: brightness(25%);
+  position: relative;
+}
+
+.application__img_button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.application__hr {
+  background: rgba(227, 184, 115, 1);
+  border: none;
+  width: 55px;
+  height: 1.543px;
+  margin-bottom: 34.46px;
+}
+
+.application__text {
+  text-align: center;
+  color: #363636;
+  font-size: 18px;
+  line-height: 36.828px;
+  margin-bottom: 91.5px;
+}
+
+.application__form {
+  text-align: center;
+}
+
+.application__form-input {
+  width: 231px;
+  padding-bottom: 8px;
+  background-color: transparent;
+  border: 0;
+  border-bottom: solid 1px rgba(54, 54, 54, .5);
+  margin-right: 58px;
+  color: #363636;
+  font-size: 14px;
+}
+
+.application__form-input::placeholder {
+  color: #363636;
+  font-size: 14px;
+}
+
+.application__form-label {
+  color: rgba(54, 54, 54, 0.50);
+  font-size: 13px;
+}
+
+.application__submit {
+  width: 200px;
+  height: 51px;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 39px;
+}
+
+.label {
+  cursor: pointer;
+}
+.checkbox{
+  display: none;
+}
+.fake{
+  display: inline-flex;
+  width: 18px;
+  height: 18px;
+  background: #E3B873;
+  color: #fff;
+  justify-content: center;
+}
+.fake::before{
+  content:"\2714";
+  opacity: 0;
+  transition: .2s;
+}
+.checkbox:checked + .fake::before{
+  opacity: 1;
+}
+
+/* Styles application end */
+
+/* Styles repair start */
+
+.repair {
+  height: 733px;
+}
+
+.wrapper__repair {
+  display: block;
+}
+
+.repair__title {
+  text-align: center;
+  margin-bottom: 13px;
+}
+
+.repair__svg {
+  text-align: center;
+  margin-bottom: 31px;
+}
+
+.repair__items {
+  display: flex;
+  justify-content: space-between;
+}
+
+.repair__item_img {
+  position: relative;
+}
+
+.repair__item_text {
+  margin-top: -127px;
+  margin-left: 31px;
+  margin-right: 31px;
+  background-color: #FFF;
+  box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.03);
+  padding: 0px 60px;
+  width: 330px;
+  height: 286px;
+  position: absolute;
+}
+
+.repair__item_title {
+  color: #363636;
+  font-size: 18px;
+  margin-bottom: 13px;
+  font-family: Yeseva One;
+  margin-top: 25px;
+}
+
+.repair__item_list {
+  margin-bottom: 23px;
+}
+
+.repair__item_link {
+  color: #959595;
+  font-size: 13px;
+  line-height: 204.6%;
+}
+
+.repair__item_button {
+  width: 228px;
+  height: 54px;
+  color: #FFF;
+  font-family: Yeseva One;
+  font-size: 14px;
+  font-style: normal;
+  margin-left: 31px;
+  margin-top: 132px;
+  position: relative;
+  margin-bottom: 230px;
+}
+
+.repair__inf {
+  height: 808px;
+  background-image: url(../img/advantages__bc.png);
+  background-size: cover;
+  max-height: 100%;
+  background-repeat: no-repeat;
+  display: flex;
+}
+
+.repair__inf_advantages {
+  margin-top: 59px;
+}
+
+.repair__inf_advantage {
+  margin-bottom: 102.03px;
+  margin-left: 235px;
+}
+
+.repair__inf_advantage-numb {
+  border-radius: 30px;
+  border: 8px solid #FFF;
+  background: #E3B873;
+  box-shadow: 0px 5px 15px 0px rgba(227, 184, 115, 0.15);
+  width: 33px;
+  height: 20px;
+  display: inline;
+  color: #FFF;
+  text-align: center;
+  font-family: Yeseva One;
+  font-size: 18px;
+  padding: 8px;
+}
+
+.repair__inf_advantage-text {
+  color: #363636;
+  font-family: Nunito Sans;
+  font-size: 14px;
+}
+
+.formm {
+  width: 506px;
+  height: 509px;
+  background-color: rgba(19, 19, 19, 1);
+  color: #FFF;
+  margin-bottom: 38.44px;
+}
+
+.repair__inf_svg {
+  margin-left: 866.5px;
+  width: 72px;
+  height: 72px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.repair__inf_svg-text {
+  color: #E3B873;
+  text-shadow: 0px 3px 10px 0px rgba(227, 184, 115, 0.15);
+  font-size: 18px;
+  margin-left: 25px;
+}
+
+/* Styles repair end */
+
+/* Styles Main end */
+
+
